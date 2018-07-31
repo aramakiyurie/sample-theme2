@@ -110,5 +110,15 @@
 	マージ＝くっつける
 	コンフリクト＝衝突
 
+
+	ブランチの作り方
+	git branch = ブランチの一覧表示
+	git branch ブランチ名
 	＊緑色は作業中のブランチ
 	git checkout develop 作業ブランチの変更
+	git add README.md =変更ファイルの追加
+	git commit -m "メッセージ"
+
+7/31
+	master は完成した状態で残したい
+	git diff ファイル名　（差分）
