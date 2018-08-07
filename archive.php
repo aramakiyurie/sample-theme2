@@ -18,7 +18,7 @@ if ( shortcode_exists( 'wp-structuring-markup-breadcrumb' ) ) {
 				<li>
 						<?php
 							$html  = '';
-							$html .= '<a href"' . get_the_permalink() . '">';
+							$html .= '<a href="' . get_the_permalink() . '">';
 							$html .= get_the_title();
 							$html .= '</a>';
 							$html .= '<p>' . get_the_excerpt() . '</p>';
